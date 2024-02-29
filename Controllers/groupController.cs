@@ -60,32 +60,3 @@ namespace apiSample.Controllers
 }
 
 
-FileDTO file = new FileDTO();
-if (taskUploadData != null && (taskUploadData.TaskId ?? 0) != 0)
-{
-    var taskData = await _taskServices.GetTaskbyId(taskUploadData.TaskId);
-    string folderName = (type == 1) ? taskData.TaskId + "_" + taskData.Title + "/TaskData" : (type == 2) ? taskData.TaskId + "_" + taskData.Title + "/TraningData" : (type == 3) ? taskData.TaskId + "_" + taskData.Title + "/InstructionData" : "";
-    if (type == 1)
-    {
-        foreach (var upload in taskUploadData.Files)
-        {
-            file = upload != null ? await _taskDataContainer.UploadTaskData(upload, folderName) : new FileDTO();
-            taskUploadData.TaskFileName = file.FileName;
-            taskUploadData.TaskFileBlobUrl = file.FileBlobUrl;
-            taskUploadData.Id = 0;
-            var dataModel = ContextMapper.TaskUploadData(taskUploadData);
-            if (dataModel != null)
-            {
-                taskUploadData.Id = await _taskServices.AddUploadeData(dataModel);
-                if (taskUploadData.Id != 0)
-                {
-                    clientResponse.Status = taskUploadData.ResultStatus = 1;
-                    clientResponse.Message = "Task Data Uploaded Successfully";
-                }
-                else
-                {
-                    clientResponse.Status = taskUploadData.ResultStatus = 2;
-                    clientResponse.Message = "Error! while creating record.";
-                }
-            }
-            taskUploads.Add(taskUploadData);   
