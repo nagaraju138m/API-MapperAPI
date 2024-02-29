@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MNR\\Practise\\MVC CRUD\\apiSample\\apiSample.csproj": {}
+    "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\apiSample\\apiSample.csproj": {}
   },
   "projects": {
-    "C:\\MNR\\Practise\\MVC CRUD\\apiSample\\apiSample.csproj": {
+    "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\apiSample\\apiSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\apiSample\\apiSample.csproj",
+        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\apiSample\\apiSample.csproj",
         "projectName": "apiSample",
-        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\apiSample\\apiSample.csproj",
+        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\apiSample\\apiSample.csproj",
         "packagesPath": "C:\\Users\\NagarajuMakanaboyina\\.nuget\\packages\\",
-        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\apiSample\\obj\\",
+        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\apiSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NagarajuMakanaboyina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj": {
-                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj"
+              "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj": {
+                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj"
               },
-              "C:\\MNR\\Practise\\MVC CRUD\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\Repository\\Repository.csproj"
+              "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\Repository.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj": {
+    "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj",
+        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj",
         "projectName": "BusinessClass",
-        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj",
+        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj",
         "packagesPath": "C:\\Users\\NagarajuMakanaboyina\\.nuget\\packages\\",
-        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\obj\\",
+        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NagarajuMakanaboyina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,14 +157,14 @@
         }
       }
     },
-    "C:\\MNR\\Practise\\MVC CRUD\\Repository\\Repository.csproj": {
+    "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\Repository\\Repository.csproj",
+        "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\NagarajuMakanaboyina\\.nuget\\packages\\",
-        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\Repository\\obj\\",
+        "outputPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NagarajuMakanaboyina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -181,8 +181,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj": {
-                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\BusinessClass\\BusinessClass.csproj"
+              "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj": {
+                "projectPath": "C:\\MNR\\Practise\\MVC CRUD\\API-Automapper\\BusinessClass\\BusinessClass.csproj"
               }
             }
           }
